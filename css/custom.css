@@ -28,6 +28,9 @@ a, a:link, a:hover {
 .text-invert div {
   color: white;
 }
+.text-invert div.sub {
+  color: white;
+}
 .text-invert h1 small,
 .text-invert h2 small,
 .text-invert h3 small,
@@ -36,6 +39,7 @@ a, a:link, a:hover {
 .text-invert h6 small {
   color: #e2e2e2;
 }
+
 a.link-material,
 a.link-material:link,
 a.link-material i,
