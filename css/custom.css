@@ -14,6 +14,7 @@ a, a:link, a:hover {
   font-size: 90px;
   font-weight: 900;
 }
-.title-big small {
-  font-size: 26%;
+.title-big + * {
+  margin-bottom: 36px;
+  font-size: 22px;
 }
