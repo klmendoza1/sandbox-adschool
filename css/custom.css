@@ -40,13 +40,15 @@ a.link-material,
 a.link-material:link,
 a.link-material i,
 a.link-material:link i {
-  color: white;
+  color: #9575cd;
   box-shadow: none;
   transition: all 0.2s ease-in-out;
 }
 a.link-material:hover,
 a.link-material:hover i {
   color: white;
+}
+a.link-material:hover i {
   text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.2s ease-in-out;
 }
