@@ -1,8 +1,7 @@
 # Site settings
-title: A World Away
+title: AdSchool Mini-Series: Web Design Session
+baseurl: http://klmendoza1.github.io/sandbox-adschool
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-baseurl: http://klmendoza1.github.io/sandbox-adcoreweek9
-

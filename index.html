@@ -1,62 +1,23 @@
----
-title: Color Palette
----
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdSchool Mini-Series: Web Design Session</title>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link href="img/favicon.ico" rel="icon" type="image/x-icon">
-	<title>{% if page.title %}{{ page.title}}{{' | '}}{{site.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name="viewport" content="width=device-width">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css"-->
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/component.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
-	<script src="{{ site.baseurl }}/js/jquery-2.1.1.min.js"></script>
-	<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-</head>
-
-    <body>
-
-    	<img src="{{ site.baseurl }}/img/AdCoreWeek9LogoFinal.png" alt="The Ignition: AdCore Week 9" width="300">
-<h2>Color Scheme</h2>
-
-<ul class="navigation">
-  <a class="main" id="format">Choose Format</a>
-  <li class="n1" id="hex1"><a>HEX - #1234EF</a></li>
-	<li class="n2" id="hex2"><a>HEX - 1234EF</a></li>
-	<li class="n3" id="rgb"><a>RGB - (255, 255, 255)</a></li>
-	<li class="n4" id="rgba"><a>RGBA - (12, 12, 12, 1.0)</a></li>
-</ul>
-
-<div class="row colors">
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-1" style="background-color:#f15e27" data-clipboard-text="#f15e27"></div>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-2" style="background-color:#f48020" data-clipboard-text="#f48020"></div>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-3" style="background-color:#f8a046" data-clipboard-text="#f8a046"></div>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-4" style="background-color:#f6f7bd" data-clipboard-text="#f6f7bd"></div>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-5" style="background-color:#655643" data-clipboard-text="#655643"></div>
-</div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-<div class="color" id="color-6" style="background-color:#54c2ba" data-clipboard-text="#54c2ba"></div>
-</div>
-
-</div>
-<div id="overlay">
-	<h1>Copied!</h1>
-</div>
-	<script src="{{ site.baseurl }}/js/ZeroClipboard.js"></script>
-    <script src="{{ site.baseurl }}/js/main.js"></script>
-    </body>
+  </head>
+  <body>
+    <h1>Hello, world!
+			<small>Download these stuvves (bwuhaha) so you can follow the session tomorrow.</small>
+		</h1>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
