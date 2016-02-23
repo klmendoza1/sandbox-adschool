@@ -3,7 +3,7 @@
   text-align: center;
   font-size: 10em;
 }
-.icon-block+a {
+.icon-block + a {
   display: block;
   text-align: center;
 }
