@@ -6,3 +6,6 @@
 .text-center {
   text-align: center;
 }
+a, a:link, a:hover {
+  text-decoration: none;
+}
