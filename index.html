@@ -64,13 +64,13 @@
 
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 text-center">
-			    <h1 style="margin-top:36px">See you!</h1>
+			    <h1 style="margin-top:36px;margin-bottom:36px;">See you!</h1>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-			    <a id="button-hidden" class="btn btn-primary hidden" href="/main.html" role="button">omg what have you done</a>
+			    <a id="button-hidden" class="btn btn-primary btn-lg hidden" href="/main.html" style="margin-bottom:36px" role="button">omg what have you done</a>
 				</div>
 			</div>
 
@@ -86,9 +86,8 @@
     <script src="js/bootstrap.min.js"></script>
 		<script>
 			cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-			  document.getElementById("button-hidden").className =
-    document.getElementById("button-hidden").className.replace(/\bhidden\b/,'');
-        alert('Whoa!');
+			  document.getElementById("button-hidden").className = document.getElementById("button-hidden").className.replace(/\bhidden\b/,'');
+        //alert('Whoa!');
 				cheet.disable('↑ ↑ ↓ ↓ ← → ← → b a');
 			});
 		</script>
