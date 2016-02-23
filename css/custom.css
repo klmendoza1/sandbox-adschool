@@ -18,3 +18,20 @@ a, a:link, a:hover {
   margin-bottom: 36px;
   font-size: 22px;
 }
+.text-invert h1,
+.text-invert h2,
+.text-invert h3,
+.text-invert h4,
+.text-invert h5,
+.text-invert h6,
+.text-invert p, {
+  color: white;
+}
+.text-invert h1 small,
+.text-invert h2 small,
+.text-invert h3 small,
+.text-invert h4 small,
+.text-invert h5 small,
+.text-invert h6 small {
+  color: #e2e2e2;
+}
