@@ -9,3 +9,7 @@
 a, a:link, a:hover {
   text-decoration: none;
 }
+.title-big:not(small) {
+  text-align: center;
+  font-size: 8em;
+}
