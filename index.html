@@ -70,7 +70,7 @@
 
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-			    <a class="btn btn-primary hidden" href="/main.html" role="button">omg what have you done</a>
+			    <a id="button-hidden" class="btn btn-primary hidden" href="/main.html" role="button">omg what have you done</a>
 				</div>
 			</div>
 
@@ -86,7 +86,8 @@
     <script src="js/bootstrap.min.js"></script>
 		<script>
 			cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
-			  alert('Voilà!');
+			  document.getElementById("button-hidden")..className =
+    document.getElementById("button-hidden").className.replace(/\bhidden\b/,'');;
 				cheet.disable('↑ ↑ ↓ ↓ ← → ← → b a');
 			});
 		</script>
