@@ -24,7 +24,7 @@ a, a:link, a:hover {
 .text-invert h4,
 .text-invert h5,
 .text-invert h6,
-.text-invert p, {
+.text-invert p {
   color: white;
 }
 .text-invert h1 small,
