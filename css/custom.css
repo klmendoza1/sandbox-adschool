@@ -66,6 +66,9 @@ div.spacer {
   background-size: cover;
 }
 div.spacer.spacer-top {
+  background-position: center bottom;
+}
+div.spacer.spacer-bottom {
   background-position: center top;
 }
 @media (max-width:960px) {
