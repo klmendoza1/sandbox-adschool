@@ -62,7 +62,7 @@ div.spacer {
   margin-left:-15px;
   margin-right:-15px;
   width: calc(100% + 30px);
-  height: 240px;
+  height: 210px;
   background-size: cover;
 }
 div.spacer.spacer-top {
