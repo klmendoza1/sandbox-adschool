@@ -62,11 +62,11 @@ div.spacer {
   margin-left:-15px;
   margin-right:-15px;
   width: calc(100% + 30px);
-  height: 200px;
+  height: 260px;
 }
 @media (max-width:960px) {
   div.spacer {
-      height: 140px;
+      height: 180px;
   }
 }
 
