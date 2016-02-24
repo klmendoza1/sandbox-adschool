@@ -63,6 +63,10 @@ div.spacer {
   margin-right:-15px;
   width: calc(100% + 30px);
   height: 260px;
+  background-size: cover;
+}
+div.spacer.spacer-top {
+  
 }
 @media (max-width:960px) {
   div.spacer {
