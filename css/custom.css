@@ -62,7 +62,7 @@ div.spacer {
   margin-left:-15px;
   margin-right:-15px;
   width: calc(100% + 30px);
-  height: 260px;
+  height: 240px;
   background-size: cover;
 }
 div.spacer.spacer-top {
@@ -78,4 +78,14 @@ div.spacer.spacer-top {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto
+}
+.row.row-title {
+  height: calc(100vh - 480);
+  min-height: 280px;
+}
+@media (max-width:960px) {
+  .row.row-title {
+    height: calc(100vh - 360);
+    min-height: 460px;
+  }
 }
