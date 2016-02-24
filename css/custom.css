@@ -80,12 +80,12 @@ div.spacer.spacer-top {
   margin-right: auto
 }
 .row.row-title {
-  height: calc(100vh - 480);
+  height: calc(100vh - 480px);
   min-height: 280px;
 }
 @media (max-width:960px) {
   .row.row-title {
-    height: calc(100vh - 360);
+    height: calc(100vh - 360px);
     min-height: 460px;
   }
 }
