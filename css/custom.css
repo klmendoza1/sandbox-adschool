@@ -59,11 +59,13 @@ a.link-material:hover i {
 
 
 div.spacer {
-  width: 100%;
-  height: 240px;
+  margin-left:-15px;
+  margin-right:-15px;
+  width: calc(100% + 30px);
+  height: 200px;
 }
 @media (max-width:960px) {
   div.spacer {
-      height: 180px;
+      height: 140px;
   }
 }
