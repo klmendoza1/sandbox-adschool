@@ -106,3 +106,10 @@ div.spacer.spacer-top {
 .col-colored h6 small {
   color: rgba(255,255,255,0.8);
 }
+.h1-space {
+  font-size: 5em;
+  margin: 50px 0;
+}
+.h1-title {
+  font-size: 7em;
+}
