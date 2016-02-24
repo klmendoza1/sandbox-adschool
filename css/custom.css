@@ -124,6 +124,8 @@ div.spacer.spacer-bottom {
   font-size: 7em;
 }
 .caption {
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.3);
   font-style: italic;
+  font-size: 0.8em;
+  text-align: center;
 }
