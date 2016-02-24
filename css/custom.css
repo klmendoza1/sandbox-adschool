@@ -89,3 +89,20 @@ div.spacer.spacer-top {
     min-height: 460px;
   }
 }
+
+.col-colored h1,
+.col-colored h2,
+.col-colored h3,
+.col-colored h4,
+.col-colored h5,
+.col-colored h6 {
+  color: white;
+}
+.col-colored h1 small,
+.col-colored h2 small,
+.col-colored h3 small,
+.col-colored h4 small,
+.col-colored h5 small,
+.col-colored h6 small {
+  color: rgba(255,255,255,0.8);
+}
